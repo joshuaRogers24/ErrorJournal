@@ -1,2 +1,3 @@
 Just like any other program, something like googletest needs to be compiled after changes are made to it.
-C++: Pushing a char converted to a std::string to a std::stack is more complicated than just having a stack of char. 
+C++: Pushing a char converted to a std::string to a std::stack is more complicated than just having a stack of char.
+C++: casting char to int gives the ASCII value as an integer. Use: int i = c - '0';
